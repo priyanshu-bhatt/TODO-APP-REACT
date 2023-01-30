@@ -1,28 +1,3 @@
-// import { useState } from "react"
-// //push to add value to the list
-// //pull to remove the value
-// const uselist=()=>{
-//     const [list,setlist]= useState([])
-//     const push =(value)=>{
-//         const newlist = list.concat(value)
-//         setlist(newlist)
-//     }
-//     const pull = (index)=>{
-
-//         const newlist = list.filter((listitem,listindex) =>{
-//             return listindex !== index
-//         })
-//         setlist(newlist)
-//     }
-//     return {
-//         list:list,
-//         push:push,
-//         pull:pull
-//     }
-    
-// }
-// export default uselist
-
 import * as React from 'react'
 import { useState } from 'react';
 import { ReactDOM } from "react";
